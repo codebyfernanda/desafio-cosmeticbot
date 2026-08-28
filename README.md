@@ -1,5 +1,5 @@
 # ✸ Cosmetic Bot: Automação em QA e Avaliação de LLM
-**Por:** Fernanda Bastos (@codebyfernanda[https://github.com/codebyfernanda]) | *AWS AI FDE Driven Quality Engineering*
+**Por:** Fernanda Bastos ([@codebyfernanda]https://github.com/codebyfernanda) | *AWS AI FDE Driven Quality Engineering*
 
 Este repositório contém a arquitetura, a suíte de testes e o pipeline de Quality Assurance (QA) para o **Cosmetic Bot**, um assistente virtual especializado no nicho de beleza e dermocosméticos.
 
