@@ -6,14 +6,46 @@ O presente projeto foi desenvolvido durante o **Desafio do Mês 1** — Constru�
 Este repositório contém a arquitetura, a suíte de testes e o pipeline de Quality Assurance (QA) focado na experiência do usuário e segurança sistêmica. O ecossistema foi estruturado localmente operando modelos fundacionais, utilizando o framework DeepEval e Pytest para garantir validação determinística, auditar a conformidade de respostas e mitigar alucinações por meio da estratégia LLM-as-a-Judge.
 
 ## ✸ Arquitetura do Sistema e Modelos Utilizados
-
 Para cumprir o requisito de custo zero e execução local, o projeto foi configurado com a seguinte infraestrutura baseada no Ollama:
 
 *   **Modelo do Bot:** Llama 3.1 8B (via provedor local Ollama).
 *   **Modelo Juiz (LLM-as-a-Judge):** Llama 3.1 8B (via provedor local Ollama).
 *   *Nota de execução:* O uso de um juiz de 8B foi priorizado em relação ao modelo 3B padrão para reduzir a oscilação nas notas de conformidade, garantindo maior estabilidade semântica na avaliação.
 
-O ecossistema adota princípios de modularidade aplicados ao desenvolvimento de sistemas:
+## ✸ Estrutura do Repositório
+
+```text
+.
+├── .gitignore
+├── README.md
+├── catalogo.json
+├── chatbot.py
+├── golden_dataset.py
+├── juiz.py
+├── main.py
+├── prompt.txt
+├── requirements.txt
+├── test_chatbot.py
+├── test_suite.py
+├── relatorio/
+│   └── relatorio_final (cosmetic bot).pdf
+└── exemplo/
+    ├── GUIA_INSTALACAO.md
+    ├── README.md
+    ├── catalogo.json
+    ├── chatbot.py
+    ├── descritivo_challenge.md
+    ├── prompt.txt
+    └── demos/
+        ├── README_DEMOS.md
+        ├── criterios_geval.md
+        ├── demo_01_relevancia.py
+        ├── demo_02_fidelidade.py
+        ├── demo_03_geval.py
+        └── demo_04_pytest.py
+```
+
+ Dito isso, o ecossistema criado por mim adota princípios de modularidade aplicados ao desenvolvimento de sistemas:
 
 | Módulo | Responsabilidade |
 | :--- | :--- |
