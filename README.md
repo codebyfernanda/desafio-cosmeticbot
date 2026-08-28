@@ -1,4 +1,3 @@
-<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/dfba6138-6dd2-49ef-99be-1870b6d83026" />
 # ✸ Cosmetic Bot: Automação em QA & Avaliação de LLM
 **Por:** Fernanda Bastos ([@codebyfernanda](https://github.com/codebyfernanda)) | *AWS AI FDE Driven Quality Engineering*
 
