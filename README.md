@@ -5,6 +5,10 @@ O presente projeto foi desenvolvido durante o **Desafio do Mês 1** — Constru�
 
 Este repositório contém a arquitetura, a suíte de testes e o pipeline de Quality Assurance (QA) focado na experiência do usuário e segurança sistêmica. O ecossistema foi estruturado localmente operando modelos fundacionais, utilizando o framework DeepEval e Pytest para garantir validação determinística, auditar a conformidade de respostas e mitigar alucinações por meio da estratégia LLM-as-a-Judge.
 
+## ✸ Etapas de Desenvolvimento 
+
+<img width="1920" height="1080" alt="etapas_desenvolvimento_cosmeticbot" src="https://github.com/user-attachments/assets/7ddf441f-e614-4bd2-9977-1cce11b9c6d4" />
+
 ## ✸ Arquitetura do Sistema e Modelos Utilizados
 Para cumprir o requisito de custo zero e execução local, o projeto foi configurado com a seguinte infraestrutura baseada no Ollama:
 
