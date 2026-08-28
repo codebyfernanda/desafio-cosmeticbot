@@ -124,10 +124,7 @@ A métrica de Conformidade de Claims apresentou notas estritas (abaixo de 0.8), 
 
 Testes exploratórios variando a temperatura para extremos (como 3.0) demonstraram que a saturação da aleatoriedade compromete a avaliação determinística. Temperaturas acima do limite funcional das funções de amostragem geram divagações estruturais severas que estouram o tempo de processamento encadeado do DeepEval. O controle rigoroso entre `0.0` e `0.3` na integração garante a reprodutibilidade dos scores e a integridade da suíte de QA.
 
-## Como Executar o Projeto
-**Requisitos:** Python 3.10+, framework DeepEval, e o servidor Ollama operando localmente. As configurações de provedor são parametrizadas via variáveis de ambiente.
-
-## Como Executar o Projeto
+## ✸ Como Executar o Projeto
 
 **Requisitos:** Python 3.10+, framework DeepEval e o servidor Ollama rodando localmente. As configurações de provedor são parametrizadas via variáveis de ambiente.
 
