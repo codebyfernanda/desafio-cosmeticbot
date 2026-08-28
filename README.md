@@ -70,6 +70,10 @@ Testes exploratórios variando a temperatura para extremos (como 3.0) demonstrar
 ## Como Executar o Projeto
 **Requisitos:** Python 3.10+, framework DeepEval, e o servidor Ollama operando localmente. As configurações de provedor são parametrizadas via variáveis de ambiente.
 
+## Como Executar o Projeto
+
+**Requisitos:** Python 3.10+, framework DeepEval e o servidor Ollama rodando localmente. As configurações de provedor são parametrizadas via variáveis de ambiente.
+
 **1. Configuração de Ambiente e Instalação de Dependências**
 ```bash
 python -m venv .venv
@@ -81,33 +85,31 @@ source .venv/bin/activate
 .venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
-
 ```
 
-**2. Download do Modelo (Infraestrutura Local Ollama)**
-
+**2. Download do Modelo (Infraestrutura Local do Ollama)**
 ```bash
 ollama pull llama3.1:8b
-
 ```
 
-**3. Executar o Pipeline de QA (Relatório Consolidado)**
+**3. Execução das Funcionalidades para gerar uma espécie de relatório consolidado em tabela:**
 
 ```bash
 python main.py
-
 ```
-
-**4. Executar Suíte Unitária (Pytest para CI/CD)**
-
+**4. Executar a suíte de testes automatizados (Pytest + DeepEval):**
 ```bash
 deepeval test run test_suite.py
-
 ```
 
-**5. Iniciar Chat Interativo (Modo Exploratório)**
+**EXTRA: Alternativa via Pytest puro):**
+
+```bash
+python -m pytest test_suite.py -v
+```
+
+**5. Iniciar o chat interativo (Modo Exploratório):**
 
 ```bash
 python main.py --chat
-
 ```
