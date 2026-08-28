@@ -1,0 +1,4 @@
+requests
+deepeval
+ollama
+pytest
