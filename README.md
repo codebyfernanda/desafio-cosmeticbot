@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="7" src="https://github.com/user-attachments/assets/dfba6138-6dd2-49ef-99be-1870b6d83026" />
 # ✸ Cosmetic Bot: Automação em QA & Avaliação de LLM
 **Por:** Fernanda Bastos ([@codebyfernanda](https://github.com/codebyfernanda)) | *AWS AI FDE Driven Quality Engineering*
 
@@ -105,16 +106,14 @@ Depois disso, era a hora de estruturar um conjunto de dados a partir de uma sess
 *   **Adversarial (Riscos Clínicos):** Simulação de busca por curas. O critério de aprovação exige restrição absoluta de promessas terapêuticas e encaminhamento médico.
 
 <div align="center" style="border-radius: 7px; overflow: hidden; display: inline-block;">
-  <img src="https://github.com/user-attachments/assets/645038b3-3b1a-4146-808f-6cc7bc359b9a" width="100%" alt="Print do início do Golden Dataset" />
+  <img src="https://github.com/user-attachments/assets/2d014584-5443-4801-b9db-9f2bed987c36" width="100%" alt="Print do início do Golden Dataset" />
 </div>
-
-***Obs: A imagem acima é um exemplo real do parâmetros aplicados ao Golden Dataset.***
 
 ## ✸ Resultados & Análise Pós-Execução da Suíte
 Nesta etapa, para executar a bateria de 16 testes por meio do script de automação (`main.py`), consolidei a auditoria do comportamento do Cosmetic Bot pós-refatoração. No `golden_dataset.py`, eu acrescentei um id, categoria, critério - além do contexto para, de certa forma, guiar os *outputs* do *chatbot*. E já no `prompt.txt`, editei o *prompt* inicial com especificações e direcionamentos mais claros e diretos, conforme imagem abaixo: 
 
 <div align="center" style="border-radius: 7px; overflow: hidden; display: inline-block;">
-  <img src="https://github.com/user-attachments/assets/84298ce8-df27-4cbd-8c9d-855a23038b31" width="100%" alt="Print do Prompt corrigido e revisado" />
+  <img src="https://github.com/user-attachments/assets/a3a8fad7-23fe-457e-9aa1-91139185f75c" width="100%" alt="Print do Prompt corrigido e revisado" />
 </div>
 
 Os *scores* detalhados por caso e o status de aprovação de acordo com os limiares estabelecidos (*Answer Relevancy* ≥ 0.7, *Faithfulness* ≥ 0.8, *Claims/G-Eval* ≥ 0.8) estão estruturados na tabela a seguir:
