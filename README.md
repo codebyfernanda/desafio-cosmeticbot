@@ -108,7 +108,7 @@ As seguintes perguntas foram feitas durante a primeira sessão de testes explora
 A execução da bateria de 16 testes (`golden_dataset.py`) por meio do script de automação (`main.py`) consolidou a auditoria do comportamento do Cosmetic Bot pós-refatoração. No `golden_dataset.py`, eu acrescentei um id, categoria, critério - além do contexto para, de certa forma, guiar os *outputs* do *chatbot*. Como mostrado no exemplo abaixo: 
 
 <div align="center" style="border-radius: 7px; overflow: hidden; display: inline-block;">
-  <img src="https://github.com/user-attachments/assets/645038b3-3b1a-4146-808f-6cc7bc359b9a" width="1920" height="1080" alt="Print do início do Golden Dataset" />
+  <img src="https://github.com/user-attachments/assets/645038b3-3b1a-4146-808f-6cc7bc359b9a" width="100%" alt="Print do início do Golden Dataset" />
 </div>
 
 Os *scores* detalhados por caso e o status de aprovação de acordo com os limiares estabelecidos (Answer Relevancy ≥ 0.7, Faithfulness ≥ 0.8, Claims/G-Eval ≥ 0.8) estão estruturados na tabela a seguir:
